@@ -19,7 +19,7 @@ public class FlatMapExample {
 		
 		Stream<List<String>> stream1=list1.stream();
 		Stream<String> stream2=stream1.flatMap(s->s.stream());
-		
+		//change for test 
 		//method refrence also 
 		//more on flatmap and foreach 
 	//	Stream<String> stream3=stream2.filter(s->s.equals("a")).forEach(s->System.out.println(s)));
